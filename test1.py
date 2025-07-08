@@ -1,2 +1,3 @@
-for i in range(10,2):
-    print("*"*i)
+for i in range(2,9):
+    for j in range(1,9):
+        print(i*j," = ", i*j)
